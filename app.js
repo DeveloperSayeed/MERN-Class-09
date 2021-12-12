@@ -603,13 +603,13 @@ const devs = [
 
 let phoneDataJson = JSON.stringify(phone);
 
-localStorage.setItem('PhoneData', phone)
+localStorage.setItem('PhoneData', phoneDataJson)
 
 let studentResultSheet = JSON.stringify(resultSheet);
-localStorage.setItem('StudentResultSheet', resultSheet)
+localStorage.setItem('StudentResultSheet', studentResultSheet)
 
 let studentDataJson = JSON.stringify(studentData);
-localStorage.setItem('StudentData', studentData)
+localStorage.setItem('StudentData', studentDataJson)
 
 let developerData =JSON.stringify(devs);
-localStorage.setItem('DeveloperData', devs)
+localStorage.setItem('DeveloperData', developerData)
